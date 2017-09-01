@@ -180,6 +180,8 @@ sqrtNonNeg :: (Ord a, Floating a) => [a] -> [a]
 sqrtNonNeg xs = map sqrt $ filter (>=0) xs
 -- sqrtNonNeg xs = map sqrt . filter (>=0) $ xs
 
+--
+
 
 
 
