@@ -1,5 +1,15 @@
+
 module Proj1 (initialGuess, nextGuess, GameState) where
 
+-- File: Proj1.hs
+-- Author: Liyu Zhang
+-- Origin:
+-- Purpose:
+--
+--|This code
+
+
+type GameState = ([String])
 
 type GameState = ([String])
 
@@ -32,4 +42,9 @@ response target guess = (right, rightNote, rightOctave)
         rightNote   = num - (length $ deleteFirstsBy (eqNth 0) guess' target) 
                     - right
         rightOctave = num - (length $ deleteFirstsBy (eqNth 1) guess' target) 
+<<<<<<< HEAD
                     - right
+=======
+                    - right
+
+>>>>>>> fbc5fd58f1991b237a8506b76d611bcfb8ed085a
